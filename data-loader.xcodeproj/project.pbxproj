@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		078D69731C27E5F60014855D /* data_loader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078D69721C27E5F60014855D /* data_loader.h */; };
-		078D69751C27E5F60014855D /* data_loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D69741C27E5F60014855D /* data_loader.m */; };
+		078D69731C27E5F60014855D /* DataLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078D69721C27E5F60014855D /* DataLoader.h */; };
+		078D69751C27E5F60014855D /* DataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D69741C27E5F60014855D /* DataLoader.m */; };
+		659B627D381C09EC92C5C83F /* MemCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B634B7C8512C943F0ED92 /* MemCache.m */; };
+		659B671E1EE578034187B0FE /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B6D07E87FAF189CE17853 /* Task.m */; };
+		659B6D777BC2D260A6190BD2 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B6FB9941021F0E4970E51 /* Result.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +21,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				078D69731C27E5F60014855D /* data_loader.h in CopyFiles */,
+				078D69731C27E5F60014855D /* DataLoader.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +29,16 @@
 
 /* Begin PBXFileReference section */
 		078D696F1C27E5F60014855D /* libdata-loader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libdata-loader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		078D69721C27E5F60014855D /* data_loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data_loader.h; sourceTree = "<group>"; };
-		078D69741C27E5F60014855D /* data_loader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = data_loader.m; sourceTree = "<group>"; };
+		078D69721C27E5F60014855D /* DataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLoader.h; sourceTree = "<group>"; };
+		078D69741C27E5F60014855D /* DataLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataLoader.m; sourceTree = "<group>"; };
+		078D697B1C27E73B0014855D /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		659B634B7C8512C943F0ED92 /* MemCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemCache.m; sourceTree = "<group>"; };
+		659B656AFD652727D359D35D /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		659B680DD7593900E900369A /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		659B6B4886974E953B6CDDD8 /* LoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDelegate.h; sourceTree = "<group>"; };
+		659B6D07E87FAF189CE17853 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		659B6FAE6914455085901DD9 /* MemCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemCache.h; sourceTree = "<group>"; };
+		659B6FB9941021F0E4970E51 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +71,16 @@
 		078D69711C27E5F60014855D /* data-loader */ = {
 			isa = PBXGroup;
 			children = (
-				078D69721C27E5F60014855D /* data_loader.h */,
-				078D69741C27E5F60014855D /* data_loader.m */,
+				078D69721C27E5F60014855D /* DataLoader.h */,
+				078D69741C27E5F60014855D /* DataLoader.m */,
+				078D697B1C27E73B0014855D /* DataProvider.h */,
+				659B6B4886974E953B6CDDD8 /* LoadDelegate.h */,
+				659B6FB9941021F0E4970E51 /* Result.m */,
+				659B656AFD652727D359D35D /* Result.h */,
+				659B6D07E87FAF189CE17853 /* Task.m */,
+				659B680DD7593900E900369A /* Task.h */,
+				659B634B7C8512C943F0ED92 /* MemCache.m */,
+				659B6FAE6914455085901DD9 /* MemCache.h */,
 			);
 			path = "data-loader";
 			sourceTree = "<group>";
@@ -122,7 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078D69751C27E5F60014855D /* data_loader.m in Sources */,
+				078D69751C27E5F60014855D /* DataLoader.m in Sources */,
+				659B6D777BC2D260A6190BD2 /* Result.m in Sources */,
+				659B671E1EE578034187B0FE /* Task.m in Sources */,
+				659B627D381C09EC92C5C83F /* MemCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
