@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0709FA211C3D44C6009ABA13 /* DataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 078D69721C27E5F60014855D /* DataLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0709FA221C3D44C6009ABA13 /* DataLoader.m in Headers */ = {isa = PBXBuildFile; fileRef = 078D69741C27E5F60014855D /* DataLoader.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		0709FA231C3D44C6009ABA13 /* DataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 078D697B1C27E73B0014855D /* DataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0709FA241C3D44C6009ABA13 /* LoadDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 659B6B4886974E953B6CDDD8 /* LoadDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0709FA251C3D44C6009ABA13 /* Result.m in Headers */ = {isa = PBXBuildFile; fileRef = 659B6FB9941021F0E4970E51 /* Result.m */; };
+		0709FA261C3D44C7009ABA13 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 659B656AFD652727D359D35D /* Result.h */; };
+		0709FA271C3D44C7009ABA13 /* Task.m in Headers */ = {isa = PBXBuildFile; fileRef = 659B6D07E87FAF189CE17853 /* Task.m */; };
+		0709FA281C3D44C7009ABA13 /* Task.h in Headers */ = {isa = PBXBuildFile; fileRef = 659B680DD7593900E900369A /* Task.h */; };
+		0709FA291C3D44C7009ABA13 /* MemCache.m in Headers */ = {isa = PBXBuildFile; fileRef = 659B634B7C8512C943F0ED92 /* MemCache.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		0709FA2A1C3D44C7009ABA13 /* MemCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 659B6FAE6914455085901DD9 /* MemCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0709FA2B1C3D44C7009ABA13 /* CacheObject.m in Headers */ = {isa = PBXBuildFile; fileRef = 659B6B77F01AE0EB71E030FF /* CacheObject.m */; };
+		0709FA2C1C3D44C7009ABA13 /* CacheObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 659B626BC7F669C6ABB6557C /* CacheObject.h */; };
 		078D69731C27E5F60014855D /* DataLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078D69721C27E5F60014855D /* DataLoader.h */; };
 		078D69751C27E5F60014855D /* DataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D69741C27E5F60014855D /* DataLoader.m */; };
+		659B617C3244D39B165412F4 /* MemCacheDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B65B83A4C58F24177CF65 /* MemCacheDataProvider.m */; };
 		659B627D381C09EC92C5C83F /* MemCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B634B7C8512C943F0ED92 /* MemCache.m */; };
+		659B6384059CC175A2B73224 /* CacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B6B77F01AE0EB71E030FF /* CacheObject.m */; };
+		659B655D8CD16F452BBB3528 /* MemCacheDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 659B682C986552E5030204C5 /* MemCacheDataProvider.h */; };
 		659B671E1EE578034187B0FE /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B6D07E87FAF189CE17853 /* Task.m */; };
 		659B6D777BC2D260A6190BD2 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 659B6FB9941021F0E4970E51 /* Result.m */; };
 /* End PBXBuildFile section */
@@ -32,10 +47,14 @@
 		078D69721C27E5F60014855D /* DataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLoader.h; sourceTree = "<group>"; };
 		078D69741C27E5F60014855D /* DataLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataLoader.m; sourceTree = "<group>"; };
 		078D697B1C27E73B0014855D /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		659B626BC7F669C6ABB6557C /* CacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheObject.h; sourceTree = "<group>"; };
 		659B634B7C8512C943F0ED92 /* MemCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemCache.m; sourceTree = "<group>"; };
 		659B656AFD652727D359D35D /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		659B65B83A4C58F24177CF65 /* MemCacheDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemCacheDataProvider.m; sourceTree = "<group>"; };
 		659B680DD7593900E900369A /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		659B682C986552E5030204C5 /* MemCacheDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemCacheDataProvider.h; sourceTree = "<group>"; };
 		659B6B4886974E953B6CDDD8 /* LoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDelegate.h; sourceTree = "<group>"; };
+		659B6B77F01AE0EB71E030FF /* CacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheObject.m; sourceTree = "<group>"; };
 		659B6D07E87FAF189CE17853 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		659B6FAE6914455085901DD9 /* MemCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemCache.h; sourceTree = "<group>"; };
 		659B6FB9941021F0E4970E51 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
@@ -81,11 +100,38 @@
 				659B680DD7593900E900369A /* Task.h */,
 				659B634B7C8512C943F0ED92 /* MemCache.m */,
 				659B6FAE6914455085901DD9 /* MemCache.h */,
+				659B6B77F01AE0EB71E030FF /* CacheObject.m */,
+				659B626BC7F669C6ABB6557C /* CacheObject.h */,
+				659B65B83A4C58F24177CF65 /* MemCacheDataProvider.m */,
+				659B682C986552E5030204C5 /* MemCacheDataProvider.h */,
 			);
 			path = "data-loader";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0709FA201C3D44BB009ABA13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0709FA211C3D44C6009ABA13 /* DataLoader.h in Headers */,
+				0709FA221C3D44C6009ABA13 /* DataLoader.m in Headers */,
+				0709FA231C3D44C6009ABA13 /* DataProvider.h in Headers */,
+				0709FA241C3D44C6009ABA13 /* LoadDelegate.h in Headers */,
+				0709FA291C3D44C7009ABA13 /* MemCache.m in Headers */,
+				0709FA2A1C3D44C7009ABA13 /* MemCache.h in Headers */,
+				0709FA251C3D44C6009ABA13 /* Result.m in Headers */,
+				0709FA261C3D44C7009ABA13 /* Result.h in Headers */,
+				0709FA271C3D44C7009ABA13 /* Task.m in Headers */,
+				0709FA281C3D44C7009ABA13 /* Task.h in Headers */,
+				0709FA2B1C3D44C7009ABA13 /* CacheObject.m in Headers */,
+				0709FA2C1C3D44C7009ABA13 /* CacheObject.h in Headers */,
+				659B655D8CD16F452BBB3528 /* MemCacheDataProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		078D696E1C27E5F60014855D /* data-loader */ = {
@@ -95,6 +141,7 @@
 				078D696B1C27E5F60014855D /* Sources */,
 				078D696C1C27E5F60014855D /* Frameworks */,
 				078D696D1C27E5F60014855D /* CopyFiles */,
+				0709FA201C3D44BB009ABA13 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -145,6 +192,8 @@
 				659B6D777BC2D260A6190BD2 /* Result.m in Sources */,
 				659B671E1EE578034187B0FE /* Task.m in Sources */,
 				659B627D381C09EC92C5C83F /* MemCache.m in Sources */,
+				659B6384059CC175A2B73224 /* CacheObject.m in Sources */,
+				659B617C3244D39B165412F4 /* MemCacheDataProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +204,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -191,6 +244,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -198,6 +252,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -228,24 +286,36 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
 		078D69791C27E5F60014855D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
 		078D697A1C27E5F60014855D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
@@ -268,6 +338,7 @@
 				078D697A1C27E5F60014855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

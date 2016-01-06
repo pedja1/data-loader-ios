@@ -2,16 +2,20 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/data-loader/Task.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/Result.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/MemCacheDataProvider.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/data-loader/MemCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/LoadDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/MemCacheDataProvider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/CacheObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/data-loader/MemCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/data-loader/DataLoader.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/data-loader/Task.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/data-loader/Result.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/data-loader/DataProvider.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/data-loader/LoadDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/CacheObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/data-loader/DataLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/Task.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/Task.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/data-loader/Result.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data-loader/DataProvider.h" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

@@ -69,7 +69,7 @@ Task* task;
     }
     else
     {
-        for(id <DataProvider> provider : _providers)
+        for(id <DataProvider> provider in _providers)
         {
             BOOL success = [provider load];
             if(success)
